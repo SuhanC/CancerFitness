@@ -1,0 +1,5 @@
+Gene	Tissue	Target	Mut_Gain	NoMut_Gain	Mut_WT	NoMut_WT
+PTEN_TP53	KICH	WithSecondM	1	2	1	4
+PTEN_TP53	KICH	WOSecondM	1	2	1	13
+TP53_PTEN	KICH	WithSecondM	1	1	1	1
+TP53_PTEN	KICH	WOSecondM	1	1	5	13
