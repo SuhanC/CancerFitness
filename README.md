@@ -1,3 +1,13 @@
+# CancerFitness
+
+1. This is part of published paper by [Park et al., 2021](https://www.nature.com/articles/s41467-021-27242-3).
+2. I'm trying to use 3-way interaction to XAI modeling.
+
+
+
+
+## ORIGINAL MD file
+
 This code implements methods for identifying interactions between mutations and CNAs within a cancer gene using log-linear regression model.
 
 To determine the significance of the co-occurrence of a pair of somatic mutation and CNAs within a gene across cancer types, we generated a model using a log-linear regression with a Poisson function using the MASS package in R (Ripley, 2013).
@@ -13,9 +23,4 @@ Input file is required four types of sample types in each cancer type, including
 Model1) 2-way interaction between mutation and CNAs within a gene-tissue pair.
 Model2) cancer-type specific 2-way interaction between mutation and CNAs within a gene-tissue pair between two cancer types (detected cancer type vs merged other targeting cancer types). 
 Model3) 3-way interaction between two genes with three genomic alterations (geneA-CNA: geneA-mutation: geneB-mutation).
-
-# CancerFitness
-
-1. This is part of published paper by [Park et al., 2021](https://www.nature.com/articles/s41467-021-27242-3).
-2. I'm trying to use 3-way interaction to XAI modeling.
 
